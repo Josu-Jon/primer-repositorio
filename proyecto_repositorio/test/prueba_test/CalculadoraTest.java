@@ -8,7 +8,7 @@ public class CalculadoraTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals(9, Calculadora.elevar(3, 2));
 	}
 
 }
