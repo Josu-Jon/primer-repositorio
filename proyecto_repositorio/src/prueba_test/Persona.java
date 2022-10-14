@@ -20,6 +20,9 @@ public class Persona {
 	}
 
 	public String getNombreCompleto() {
+		if (apellido == null || nombre == null) {
+			throw new NullPointerException();
+		}
 		return apellido + ", " + nombre;
 	}
 
