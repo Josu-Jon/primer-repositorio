@@ -1,4 +1,4 @@
-package prueba_BBDD;
+package BBDD;
 
 public class Base_Datos {
 	public static void main(String[] args) {
