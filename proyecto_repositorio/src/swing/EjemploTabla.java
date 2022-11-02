@@ -40,7 +40,7 @@ public class EjemploTabla extends JFrame {
 			
 			@Override
 			public void run() {
-				//EjemploTabla();
+				new EjemploTabla();
 			}
 		});
 	}
