@@ -23,9 +23,9 @@ public class EjemploTabla extends JFrame {
 		
 		JTable tabla= new JTable(modeloTabla);
 		
+		
+		
 		JScrollPane jpanel =new JScrollPane(tabla);
-		
-		
 		
 		jpanel.add(tabla);
 		

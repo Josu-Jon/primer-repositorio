@@ -9,6 +9,12 @@ public class CalcularFibonaci {
 	}
 	
 	public static void main(String[] args) {
+		System.out.println(fibo(0));
+		System.out.println(fibo(1));
 		System.out.println(fibo(2));
+		System.out.println(fibo(3));
+		System.out.println(fibo(4));
+		System.out.println(fibo(5));
+		System.out.println(fibo(6));
 	}
 }

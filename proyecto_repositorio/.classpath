@@ -9,5 +9,9 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="lib/sqlite-jdbc-3.39.3.0.jar"/>
+	<classpathentry kind="lib" path="/prog3-ejemplos-codigo/lib/example-lib.jar"/>
+	<classpathentry kind="lib" path="/prog3-ejemplos-codigo/lib/jdatepicker-2.0.3.jar"/>
+	<classpathentry kind="lib" path="/prog3-ejemplos-codigo/lib/sqlite-jdbc-3.32.3.2.jar"/>
+	<classpathentry kind="src" path="tema4A"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
