@@ -38,6 +38,9 @@ public class Producto implements Comparable<Producto>{
 	@Override
 	public int compareTo(Producto p) {
 		return this.id - p.getId();
+//		Comparador de enteros -- las dos hacen lo mismo
+		//return Integer.compare(this.id, p.getId());
+
 	}
 
 }
