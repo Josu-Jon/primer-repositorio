@@ -1,6 +1,9 @@
 package tets.ejercicios;
 
 import org.junit.Test;
+
+import java_collections.ejercicios.Ejercicio07;
+
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 

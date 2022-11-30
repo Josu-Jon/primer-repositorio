@@ -1,6 +1,10 @@
 package tets.ejercicios;
 
 import org.junit.Test;
+
+import java_collections.ejercicios.Ejercicio08;
+import java_collections.ejercicios.Producto;
+
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
@@ -19,7 +23,6 @@ public class Ejercicio08Test {
             new Producto(10, "Clavo", 10, LocalDate.of(2019, 12, 21)),
             new Producto(7, "Palometa", 20, LocalDate.of(2018, 7, 21))
         );
-        productos = Ejercicio06.ordenarProductosEntrega(productos);
         assertTrue(Ejercicio08.existeProducto(productos, new Producto(1, "Perno", 1, LocalDate.of(2019, 6, 29))));
         assertTrue(Ejercicio08.existeProducto(productos, new Producto(3, "Tornillo", 5, LocalDate.of(2019, 6, 30))));
 

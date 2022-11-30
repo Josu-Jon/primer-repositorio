@@ -40,7 +40,14 @@ public class Producto implements Comparable<Producto>{
 		return this.id - p.getId();
 //		Comparador de enteros -- las dos hacen lo mismo
 		//return Integer.compare(this.id, p.getId());
-
 	}
-
+// Ejercicio 08
+	@Override
+	public boolean equals(Object obj) {
+		if(!(obj instanceof Producto)) {
+			return false;
+		}
+		Producto p = (Producto) obj;
+		return this.id == p.id;
+	}
 }

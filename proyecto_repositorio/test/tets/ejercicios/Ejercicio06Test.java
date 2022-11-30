@@ -1,6 +1,9 @@
 package tets.ejercicios;
 
 import org.junit.Test;
+
+import java_collections.ejercicios.Producto;
+
 import static org.junit.Assert.assertEquals;
 
 import java.time.LocalDate;
